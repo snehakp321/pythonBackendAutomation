@@ -1,0 +1,9 @@
+Web scraping in python using beautiful soup
+
+It is all about extracting data/content from web pages
+Python does this with the help of beautiful soup package
+It is highly used in data science to analyze and prepare metrics
+Webscraping can be done only when html is present as o/p
+
+"Find data and play with it" is one of the key principles
+in any saying data science projects and python scraping is most common technique used to find data

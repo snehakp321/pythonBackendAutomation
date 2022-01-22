@@ -1,0 +1,22 @@
+Python SSH Connection to Linux:
+
+Launching AWS Linux Instance
+Update Configurations to accept SSH Connection
+Build Paramiko SSH Connection
+Run the commands from local Python Script on Linux via SSH
+How to read the output from Linux machine
+How to transfer files from local server to Linux Server
+Running Python batch files in Linux server via SSH
+Downloading the files from Linux to local machine via SFTP
+Validating Batch files output through Parsing CSV files
+
+Configuration:
+1.	Login as root admin with below commands
+Sudo su -
+2. enable password authentication to ssh
+and reload with below commands
+vi /etc/ssh/sshd_config
+service sshd reload
+
+3.	Create password for ec2-user
+passwd ec2-user
