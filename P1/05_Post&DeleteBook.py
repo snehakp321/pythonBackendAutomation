@@ -33,7 +33,7 @@ deletebook_response == 200
 se = requests.session()
 se.auth = auth=('snehakp123',"test@123") # session manager, instead of authenticating everytime
 url = "https://api.github.com/user"
-github_response = requests.get(url,verify=False, auth=('snehakp123',"test@123"))
+github_response = requests.get(url,verify=False, auth=('dummydata',"dummydatatest@123"))
 
 url2 = "https://api.github.com/user/repos"
 githubuserrepo_response = se.get(url2)
